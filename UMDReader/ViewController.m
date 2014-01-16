@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UMDReader.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UMDReader *reader = [[UMDReader alloc] init];
+    reader.filePath = [[NSBundle mainBundle] pathForResource:@"201101101441122136" ofType:@"umd"];
+    NSLog(@"书名：%@", reader.bookName);
+    NSLog(@"章节标题：");
+    for (NSString *title in reader.titles) {
+        NSLog(@"%@", title);
+    }
+    NSLog(@"------------------");
+    reader.filePath = [[NSBundle mainBundle] pathForResource:@"201101110809472321" ofType:@"umd"];
+    NSLog(@"书名：%@", reader.bookName);
+    NSLog(@"章节标题：");
+    for (NSString *title in reader.titles) {
+        NSLog(@"%@", title);
+    }
+    [reader release];
 }
 
 - (void)didReceiveMemoryWarning

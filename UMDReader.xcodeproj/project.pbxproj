@@ -32,6 +32,8 @@
 		B15A4A191888253600F6DCF9 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A051888253600F6DCF9 /* trees.c */; };
 		B15A4A1A1888253600F6DCF9 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A071888253600F6DCF9 /* uncompr.c */; };
 		B15A4A1B1888253600F6DCF9 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A0A1888253600F6DCF9 /* zutil.c */; };
+		B15A4A1E188828B000F6DCF9 /* 201101101441122136.umd in Resources */ = {isa = PBXBuildFile; fileRef = B15A4A1C188828B000F6DCF9 /* 201101101441122136.umd */; };
+		B15A4A1F188828B000F6DCF9 /* 201101110809472321.umd in Resources */ = {isa = PBXBuildFile; fileRef = B15A4A1D188828B000F6DCF9 /* 201101110809472321.umd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,8 @@
 		B15A4A091888253600F6DCF9 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
 		B15A4A0A1888253600F6DCF9 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
 		B15A4A0B1888253600F6DCF9 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		B15A4A1C188828B000F6DCF9 /* 201101101441122136.umd */ = {isa = PBXFileReference; lastKnownFileType = file; path = 201101101441122136.umd; sourceTree = "<group>"; };
+		B15A4A1D188828B000F6DCF9 /* 201101110809472321.umd */ = {isa = PBXFileReference; lastKnownFileType = file; path = 201101110809472321.umd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 		B15A49C01888251D00F6DCF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B15A4A1C188828B000F6DCF9 /* 201101101441122136.umd */,
+				B15A4A1D188828B000F6DCF9 /* 201101110809472321.umd */,
 				B15A49C11888251D00F6DCF9 /* UMDReader-Info.plist */,
 				B15A49C21888251D00F6DCF9 /* InfoPlist.strings */,
 				B15A49C51888251D00F6DCF9 /* main.m */,
@@ -266,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15A49D21888251D00F6DCF9 /* Images.xcassets in Resources */,
+				B15A4A1E188828B000F6DCF9 /* 201101101441122136.umd in Resources */,
+				B15A4A1F188828B000F6DCF9 /* 201101110809472321.umd in Resources */,
 				B15A49C41888251D00F6DCF9 /* InfoPlist.strings in Resources */,
 				B15A49CD1888251D00F6DCF9 /* Main.storyboard in Resources */,
 			);
