@@ -17,23 +17,9 @@
 		B15A49D01888251D00F6DCF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15A49CF1888251D00F6DCF9 /* ViewController.m */; };
 		B15A49D21888251D00F6DCF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15A49D11888251D00F6DCF9 /* Images.xcassets */; };
 		B15A4A0C1888253600F6DCF9 /* UMDReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B15A49F01888253600F6DCF9 /* UMDReader.m */; };
-		B15A4A0D1888253600F6DCF9 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49F21888253600F6DCF9 /* adler32.c */; };
-		B15A4A0E1888253600F6DCF9 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49F31888253600F6DCF9 /* compress.c */; };
-		B15A4A0F1888253600F6DCF9 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49F41888253600F6DCF9 /* crc32.c */; };
-		B15A4A101888253600F6DCF9 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49F61888253600F6DCF9 /* deflate.c */; };
-		B15A4A111888253600F6DCF9 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49F81888253600F6DCF9 /* gzclose.c */; };
-		B15A4A121888253600F6DCF9 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49FA1888253600F6DCF9 /* gzlib.c */; };
-		B15A4A131888253600F6DCF9 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49FB1888253600F6DCF9 /* gzread.c */; };
-		B15A4A141888253600F6DCF9 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49FC1888253600F6DCF9 /* gzwrite.c */; };
-		B15A4A151888253600F6DCF9 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49FD1888253600F6DCF9 /* infback.c */; };
-		B15A4A161888253600F6DCF9 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A49FE1888253600F6DCF9 /* inffast.c */; };
-		B15A4A171888253600F6DCF9 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A011888253600F6DCF9 /* inflate.c */; };
-		B15A4A181888253600F6DCF9 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A031888253600F6DCF9 /* inftrees.c */; };
-		B15A4A191888253600F6DCF9 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A051888253600F6DCF9 /* trees.c */; };
-		B15A4A1A1888253600F6DCF9 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A071888253600F6DCF9 /* uncompr.c */; };
-		B15A4A1B1888253600F6DCF9 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = B15A4A0A1888253600F6DCF9 /* zutil.c */; };
 		B15A4A1E188828B000F6DCF9 /* 201101101441122136.umd in Resources */ = {isa = PBXBuildFile; fileRef = B15A4A1C188828B000F6DCF9 /* 201101101441122136.umd */; };
 		B15A4A1F188828B000F6DCF9 /* 201101110809472321.umd in Resources */ = {isa = PBXBuildFile; fileRef = B15A4A1D188828B000F6DCF9 /* 201101110809472321.umd */; };
+		B1A1FB791FBE9BEA007B474D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A1FB781FBE9BEA007B474D /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,39 +38,11 @@
 		B15A49CF1888251D00F6DCF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B15A49D11888251D00F6DCF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B15A49D81888251D00F6DCF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B15A49E01888251D00F6DCF9 /* UMDReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UMDReaderTests-Info.plist"; sourceTree = "<group>"; };
-		B15A49E21888251D00F6DCF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B15A49E41888251D00F6DCF9 /* UMDReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMDReaderTests.m; sourceTree = "<group>"; };
 		B15A49EF1888253600F6DCF9 /* UMDReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMDReader.h; sourceTree = "<group>"; };
 		B15A49F01888253600F6DCF9 /* UMDReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMDReader.m; sourceTree = "<group>"; };
-		B15A49F21888253600F6DCF9 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
-		B15A49F31888253600F6DCF9 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
-		B15A49F41888253600F6DCF9 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
-		B15A49F51888253600F6DCF9 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
-		B15A49F61888253600F6DCF9 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
-		B15A49F71888253600F6DCF9 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
-		B15A49F81888253600F6DCF9 /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
-		B15A49F91888253600F6DCF9 /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
-		B15A49FA1888253600F6DCF9 /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
-		B15A49FB1888253600F6DCF9 /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
-		B15A49FC1888253600F6DCF9 /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
-		B15A49FD1888253600F6DCF9 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
-		B15A49FE1888253600F6DCF9 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
-		B15A49FF1888253600F6DCF9 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
-		B15A4A001888253600F6DCF9 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
-		B15A4A011888253600F6DCF9 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
-		B15A4A021888253600F6DCF9 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
-		B15A4A031888253600F6DCF9 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
-		B15A4A041888253600F6DCF9 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
-		B15A4A051888253600F6DCF9 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
-		B15A4A061888253600F6DCF9 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
-		B15A4A071888253600F6DCF9 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
-		B15A4A081888253600F6DCF9 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
-		B15A4A091888253600F6DCF9 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
-		B15A4A0A1888253600F6DCF9 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
-		B15A4A0B1888253600F6DCF9 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
 		B15A4A1C188828B000F6DCF9 /* 201101101441122136.umd */ = {isa = PBXFileReference; lastKnownFileType = file; path = 201101101441122136.umd; sourceTree = "<group>"; };
 		B15A4A1D188828B000F6DCF9 /* 201101110809472321.umd */ = {isa = PBXFileReference; lastKnownFileType = file; path = 201101110809472321.umd; sourceTree = "<group>"; };
+		B1A1FB781FBE9BEA007B474D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A1FB791FBE9BEA007B474D /* libz.tbd in Frameworks */,
 				B15A49BC1888251D00F6DCF9 /* CoreGraphics.framework in Frameworks */,
 				B15A49BE1888251D00F6DCF9 /* UIKit.framework in Frameworks */,
 				B15A49BA1888251D00F6DCF9 /* Foundation.framework in Frameworks */,
@@ -105,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				B15A49BF1888251D00F6DCF9 /* UMDReader */,
-				B15A49DE1888251D00F6DCF9 /* UMDReaderTests */,
 				B15A49B81888251D00F6DCF9 /* Frameworks */,
 				B15A49B71888251D00F6DCF9 /* Products */,
 			);
@@ -122,6 +80,7 @@
 		B15A49B81888251D00F6DCF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1A1FB781FBE9BEA007B474D /* libz.tbd */,
 				B15A49B91888251D00F6DCF9 /* Foundation.framework */,
 				B15A49BB1888251D00F6DCF9 /* CoreGraphics.framework */,
 				B15A49BD1888251D00F6DCF9 /* UIKit.framework */,
@@ -158,65 +117,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B15A49DE1888251D00F6DCF9 /* UMDReaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				B15A49E41888251D00F6DCF9 /* UMDReaderTests.m */,
-				B15A49DF1888251D00F6DCF9 /* Supporting Files */,
-			);
-			path = UMDReaderTests;
-			sourceTree = "<group>";
-		};
-		B15A49DF1888251D00F6DCF9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B15A49E01888251D00F6DCF9 /* UMDReaderTests-Info.plist */,
-				B15A49E11888251D00F6DCF9 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		B15A49EE1888253600F6DCF9 /* UMDReader */ = {
 			isa = PBXGroup;
 			children = (
 				B15A49EF1888253600F6DCF9 /* UMDReader.h */,
 				B15A49F01888253600F6DCF9 /* UMDReader.m */,
-				B15A49F11888253600F6DCF9 /* ZLib */,
 			);
 			path = UMDReader;
-			sourceTree = "<group>";
-		};
-		B15A49F11888253600F6DCF9 /* ZLib */ = {
-			isa = PBXGroup;
-			children = (
-				B15A49F21888253600F6DCF9 /* adler32.c */,
-				B15A49F31888253600F6DCF9 /* compress.c */,
-				B15A49F41888253600F6DCF9 /* crc32.c */,
-				B15A49F51888253600F6DCF9 /* crc32.h */,
-				B15A49F61888253600F6DCF9 /* deflate.c */,
-				B15A49F71888253600F6DCF9 /* deflate.h */,
-				B15A49F81888253600F6DCF9 /* gzclose.c */,
-				B15A49F91888253600F6DCF9 /* gzguts.h */,
-				B15A49FA1888253600F6DCF9 /* gzlib.c */,
-				B15A49FB1888253600F6DCF9 /* gzread.c */,
-				B15A49FC1888253600F6DCF9 /* gzwrite.c */,
-				B15A49FD1888253600F6DCF9 /* infback.c */,
-				B15A49FE1888253600F6DCF9 /* inffast.c */,
-				B15A49FF1888253600F6DCF9 /* inffast.h */,
-				B15A4A001888253600F6DCF9 /* inffixed.h */,
-				B15A4A011888253600F6DCF9 /* inflate.c */,
-				B15A4A021888253600F6DCF9 /* inflate.h */,
-				B15A4A031888253600F6DCF9 /* inftrees.c */,
-				B15A4A041888253600F6DCF9 /* inftrees.h */,
-				B15A4A051888253600F6DCF9 /* trees.c */,
-				B15A4A061888253600F6DCF9 /* trees.h */,
-				B15A4A071888253600F6DCF9 /* uncompr.c */,
-				B15A4A081888253600F6DCF9 /* zconf.h */,
-				B15A4A091888253600F6DCF9 /* zlib.h */,
-				B15A4A0A1888253600F6DCF9 /* zutil.c */,
-				B15A4A0B1888253600F6DCF9 /* zutil.h */,
-			);
-			path = ZLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +154,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = yangjh;
+				TargetAttributes = {
+					B15A49B51888251D00F6DCF9 = {
+						DevelopmentTeam = 3QY9VJ4ZK2;
+					};
+				};
 			};
 			buildConfigurationList = B15A49B11888251D00F6DCF9 /* Build configuration list for PBXProject "UMDReader" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,25 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15A4A151888253600F6DCF9 /* infback.c in Sources */,
 				B15A49D01888251D00F6DCF9 /* ViewController.m in Sources */,
-				B15A4A0E1888253600F6DCF9 /* compress.c in Sources */,
 				B15A49CA1888251D00F6DCF9 /* AppDelegate.m in Sources */,
-				B15A4A111888253600F6DCF9 /* gzclose.c in Sources */,
 				B15A49C61888251D00F6DCF9 /* main.m in Sources */,
-				B15A4A1A1888253600F6DCF9 /* uncompr.c in Sources */,
 				B15A4A0C1888253600F6DCF9 /* UMDReader.m in Sources */,
-				B15A4A1B1888253600F6DCF9 /* zutil.c in Sources */,
-				B15A4A141888253600F6DCF9 /* gzwrite.c in Sources */,
-				B15A4A0F1888253600F6DCF9 /* crc32.c in Sources */,
-				B15A4A0D1888253600F6DCF9 /* adler32.c in Sources */,
-				B15A4A131888253600F6DCF9 /* gzread.c in Sources */,
-				B15A4A181888253600F6DCF9 /* inftrees.c in Sources */,
-				B15A4A161888253600F6DCF9 /* inffast.c in Sources */,
-				B15A4A121888253600F6DCF9 /* gzlib.c in Sources */,
-				B15A4A101888253600F6DCF9 /* deflate.c in Sources */,
-				B15A4A191888253600F6DCF9 /* trees.c in Sources */,
-				B15A4A171888253600F6DCF9 /* inflate.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,14 +222,6 @@
 				B15A49CC1888251D00F6DCF9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B15A49E11888251D00F6DCF9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B15A49E21888251D00F6DCF9 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,9 +304,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = 3QY9VJ4ZK2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UMDReader/UMDReader-Prefix.pch";
 				INFOPLIST_FILE = "UMDReader/UMDReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.UMDReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -428,9 +321,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = 3QY9VJ4ZK2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UMDReader/UMDReader-Prefix.pch";
 				INFOPLIST_FILE = "UMDReader/UMDReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apple.UMDReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +352,7 @@
 				B15A49EA1888251D00F6DCF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

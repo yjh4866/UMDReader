@@ -34,7 +34,6 @@
     for (NSString *title in reader.titles) {
         NSLog(@"%@", title);
     }
-    [reader release];
 }
 
 - (void)didReceiveMemoryWarning
